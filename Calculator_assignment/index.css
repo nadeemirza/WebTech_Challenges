@@ -9,8 +9,8 @@
     margin: 5px auto 10px auto;
     font-size: large;
 }
-.clear{
-    width: 155px;
+.clear,.del{
+    width: 75px;
 }
 #Container{
     background-color: aqua;
