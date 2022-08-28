@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.input{
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    margin: 5px auto 10px auto;
+    font-size: large;
+}
+.clear{
+    width: 155px;
+}
+#Container{
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10vh auto 0 auto;
+    height: 50vh;
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+button{
+    padding: 10px;
+    margin: 2px;
+    font-size: larger;
+    border-radius: 5px;
+    color: rgb(12, 129, 175);
+    background-color: rgb(97, 14, 14);
+}
+button:hover{
+    color: white;
+    background-color:black;
+    cursor: pointer;
+}
