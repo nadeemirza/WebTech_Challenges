@@ -1,6 +1,10 @@
-@media only screen and(max-width:480px) {
+@media(max-width: 480px) {
+    #main {
+            width: 100vw;
+            height: 100vh;
+        }
     .main {
-        height: 60vh;
+        height: 20vh;
         width: 100vw;
         text-align: center;
         padding: 10px 5px;
@@ -8,19 +12,22 @@
 
     .cards {
         width: 100vw;
+        height: 80vh;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4 {
+        width:100vw;
+        height: 20vh;
+        margin: 10px;
     }
 
     .Main {
         background-color: aqua;
-    }
-
-    .main {
-        background-color: blue;
-    }
-
-    .cards {
-        background-color: black;
     }
 }
