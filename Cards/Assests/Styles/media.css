@@ -1,0 +1,26 @@
+@media only screen and(max-width:480px) {
+    .main {
+        height: 60vh;
+        width: 100vw;
+        text-align: center;
+        padding: 10px 5px;
+    }
+
+    .cards {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Main {
+        background-color: aqua;
+    }
+
+    .main {
+        background-color: blue;
+    }
+
+    .cards {
+        background-color: black;
+    }
+}
