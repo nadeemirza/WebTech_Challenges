@@ -1,0 +1,13 @@
+ul,li{
+    list-style: none;
+}
+.cards-container{
+    width: 90vw;
+    height: 80vh; 
+}
+
+.cards{
+    width:25vw;
+    height: 15vh;
+    padding-left: 20px;
+}
